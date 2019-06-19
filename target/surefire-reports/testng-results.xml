@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-18T19:31:28Z" name="SuiteTest" finished-at="2019-06-18T19:32:19Z" duration-ms="50212">
+    <groups>
+    </groups>
+    <test started-at="2019-06-18T19:31:28Z" name="Chrome" finished-at="2019-06-18T19:32:19Z" duration-ms="50212">
+      <class name="com.guru99.testCases.Tc_LoginTestUsingxl">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.guru99.testCases.Tc_LoginTestUsingxl@478190fc]" started-at="2019-06-18T19:31:29Z" name="setUp" finished-at="2019-06-18T19:31:56Z" duration-ms="27045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc_01(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.testCases.Tc_LoginTestUsingxl@478190fc]" started-at="2019-06-18T19:32:00Z" name="tc_01" data-provider="xlFileReading" finished-at="2019-06-18T19:32:18Z" duration-ms="17800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr201583]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mAvApah]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.guru99.testCases.Tc_LoginTestUsingxl@478190fc]" started-at="2019-06-18T19:32:18Z" name="tearDown" finished-at="2019-06-18T19:32:19Z" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.guru99.testCases.Tc_LoginTestUsingxl -->
+    </test> <!-- Chrome -->
+  </suite> <!-- SuiteTest -->
+</testng-results>

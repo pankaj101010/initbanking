@@ -1,0 +1,9 @@
+com\guru99\testCases\Tc_LoginTestUsingxl.class
+com\guru99\utility\Reporting.class
+com\guru99\utility\XssfReading.class
+com\guru99\PageObjects\AccCustomerPage.class
+com\guru99\utility\DataProviderData.class
+com\guru99\PageObjects\LoginPage.class
+com\guru99\utility\ReadConfig.class
+com\guru99\testCases\Tc_LoginTest_001.class
+com\guru99\testCases\BaseClass.class

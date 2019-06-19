@@ -1,0 +1,187 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jun 18 15:41:58 IST 2019<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jun 18 15:44:03 IST 2019<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jun 18 15:45:31 IST 2019<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td title="TestNG-tests-2 thread">TestNG-tests-2</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="freemarker.runtime category">freemarker.runtime</td>
+<td>_Log4jLoggerFactory.java:60</td>
+<td title="Message">Error executing FreeMarker template</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">FreeMarker template error:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;The following has evaluated to null or missing:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;==&gt; config.getValue('encoding')  [in template &quot;head.ftl&quot; at line 5, column 27]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;----
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use &lt;#if myOptionalVar??&gt;when-present&lt;#else&gt;when-missing&lt;/#if&gt;. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+<br>&nbsp;&nbsp;&nbsp;&nbsp;----
+<br>&nbsp;&nbsp;&nbsp;&nbsp;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;----
+<br>&nbsp;&nbsp;&nbsp;&nbsp;FTL stack trace (&quot;~&quot; means nesting-related):
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	- Failed at: ${config.getValue(&quot;encoding&quot;)}  [in template &quot;head.ftl&quot; at line 5, column 24]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	- Reached through: #include &quot;head.ftl&quot;  [in template &quot;index.ftl&quot; at line 43, column 9]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;----
+<br>&nbsp;&nbsp;&nbsp;&nbsp;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Java stack trace (for programmers):
+<br>&nbsp;&nbsp;&nbsp;&nbsp;----
+<br>&nbsp;&nbsp;&nbsp;&nbsp;freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:355)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at freemarker.core.Environment.visit(Environment.java:324)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at freemarker.core.Environment.visit(Environment.java:324)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at freemarker.core.Environment.include(Environment.java:2072)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at freemarker.core.Include.accept(Include.java:167)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at freemarker.core.Environment.visit(Environment.java:324)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at freemarker.core.MixedContent.accept(MixedContent.java:54)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at freemarker.core.Environment.visit(Environment.java:324)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at freemarker.core.Environment.process(Environment.java:302)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at freemarker.template.Template.process(Template.java:325)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.aventstack.extentreports.reporter.ExtentHtmlReporter.flush(ExtentHtmlReporter.java:142)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.aventstack.extentreports.Report.notifyReporters(Report.java:247)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.aventstack.extentreports.Report.flush(Report.java:169)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:272)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.guru99.utility.Reporting.onFinish(Reporting.java:83)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestRunner.fireEvent(TestRunner.java:772)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestRunner.afterRun(TestRunner.java:741)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestRunner.run(TestRunner.java:509)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.base/java.lang.Thread.run(Thread.java:834)
+</td></tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jun 18 15:49:13 IST 2019<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+</table>
+<br>
+</body></html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Jun 18 15:51:18 IST 2019<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+</table>
+<br>
+</body></html>
